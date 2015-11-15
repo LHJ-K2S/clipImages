@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNI-cI-mfh">
+                                <rect key="frame" x="225" y="141" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.80689655172413788" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="NbA-YO-xeQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="xlr-FJ-twZ"/>
+                                </constraints>
+                                <state key="normal" title="APP图标">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToAppIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bW-ru-o8X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Vw-1O-fUW">
+                                <rect key="frame" x="50" y="221" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.80088900862068968" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4Lt-1v-cYh"/>
+                                    <constraint firstAttribute="height" constant="30" id="k5I-PD-7aB"/>
+                                </constraints>
+                                <state key="normal" title="APP图标@2x">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToAppIcon2x:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3aY-mk-kA6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已经在您桌面创建名为“123图片裁剪”的文件夹，请把要裁剪的图片放入这个文件夹" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3o-Q0-6bx">
+                                <rect key="frame" x="20" y="50" width="335" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1g5-Tg-mPZ">
+                                <rect key="frame" x="50" y="141" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Rx-Ou-MhA"/>
+                                    <constraint firstAttribute="width" constant="100" id="Iv6-Mt-lDh"/>
+                                </constraints>
+                                <state key="normal" title="item的图片">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wzr-0X-DKr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L50-CD-YKs">
+                                <rect key="frame" x="225" y="221" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.81379310344827582" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="UuE-zA-x5B"/>
+                                    <constraint firstAttribute="height" constant="30" id="m3h-dJ-JZK"/>
+                                </constraints>
+                                <state key="normal" title="APP图标@3x">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToAppIcon3x:" destination="BYZ-38-t0r" eventType="touchUpInside" id="quF-KG-KIL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STP-01-N7J">
+                                <rect key="frame" x="50" y="341" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.81468211206896557" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="kqT-Tb-4WB"/>
+                                    <constraint firstAttribute="height" constant="30" id="mA6-No-fo8"/>
+                                </constraints>
+                                <state key="normal" title="指定尺寸">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToGiven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H3n-CK-ElW"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="宽度" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XwK-uA-DXg" userLabel="宽度">
+                                <rect key="frame" x="250.5" y="341" width="49" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPX-7j-tZF">
+                                <rect key="frame" x="50" y="281" width="100" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="0.80088900862068968" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IgZ-gv-3Ec"/>
+                                    <constraint firstAttribute="width" constant="100" id="awZ-rE-GHP"/>
+                                </constraints>
+                                <state key="normal" title="指定比例缩放">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clipToScale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJw-w4-JEK"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="比例" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l6A-mD-x44">
+                                <rect key="frame" x="250.5" y="281" width="49" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="高度" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Z4-P1-HTL" userLabel="高度">
+                                <rect key="frame" x="250.5" y="391" width="49" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1g5-Tg-mPZ" firstAttribute="top" secondItem="d3o-Q0-6bx" secondAttribute="bottom" constant="50" id="0qu-wT-g61"/>
+                            <constraint firstItem="L50-CD-YKs" firstAttribute="trailing" secondItem="JNI-cI-mfh" secondAttribute="trailing" id="7ju-02-cAK"/>
+                            <constraint firstItem="1Z4-P1-HTL" firstAttribute="top" secondItem="XwK-uA-DXg" secondAttribute="bottom" constant="20" id="8Oc-xS-YwO"/>
+                            <constraint firstItem="1g5-Tg-mPZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="8Xa-cK-rh2"/>
+                            <constraint firstItem="4Vw-1O-fUW" firstAttribute="top" secondItem="1g5-Tg-mPZ" secondAttribute="bottom" constant="50" id="99D-uy-w2P"/>
+                            <constraint firstItem="fPX-7j-tZF" firstAttribute="top" secondItem="4Vw-1O-fUW" secondAttribute="bottom" constant="30" id="FYL-k4-pks"/>
+                            <constraint firstAttribute="trailing" secondItem="JNI-cI-mfh" secondAttribute="trailing" constant="50" id="MLy-FK-lDx"/>
+                            <constraint firstItem="XwK-uA-DXg" firstAttribute="centerY" secondItem="STP-01-N7J" secondAttribute="centerY" id="OdJ-ji-C4j"/>
+                            <constraint firstItem="STP-01-N7J" firstAttribute="top" secondItem="fPX-7j-tZF" secondAttribute="bottom" constant="30" id="RRu-uG-jOG"/>
+                            <constraint firstItem="l6A-mD-x44" firstAttribute="centerX" secondItem="L50-CD-YKs" secondAttribute="centerX" id="SMf-zi-MU0"/>
+                            <constraint firstItem="4Vw-1O-fUW" firstAttribute="leading" secondItem="1g5-Tg-mPZ" secondAttribute="leading" id="XGZ-Od-kVH"/>
+                            <constraint firstAttribute="trailing" secondItem="d3o-Q0-6bx" secondAttribute="trailing" constant="20" id="XZN-JG-ZQR"/>
+                            <constraint firstItem="XwK-uA-DXg" firstAttribute="centerX" secondItem="l6A-mD-x44" secondAttribute="centerX" id="bYe-RP-g2c"/>
+                            <constraint firstItem="l6A-mD-x44" firstAttribute="centerY" secondItem="fPX-7j-tZF" secondAttribute="centerY" id="cXr-lt-X5q"/>
+                            <constraint firstItem="L50-CD-YKs" firstAttribute="top" secondItem="JNI-cI-mfh" secondAttribute="bottom" constant="50" id="cmi-bz-9u3"/>
+                            <constraint firstItem="JNI-cI-mfh" firstAttribute="top" secondItem="d3o-Q0-6bx" secondAttribute="bottom" constant="50" id="lR3-7b-b6K"/>
+                            <constraint firstItem="fPX-7j-tZF" firstAttribute="leading" secondItem="4Vw-1O-fUW" secondAttribute="leading" id="n46-bk-Poy"/>
+                            <constraint firstItem="STP-01-N7J" firstAttribute="leading" secondItem="fPX-7j-tZF" secondAttribute="leading" id="oMI-Uq-67l"/>
+                            <constraint firstItem="d3o-Q0-6bx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="pxJ-RF-hiA"/>
+                            <constraint firstItem="1Z4-P1-HTL" firstAttribute="centerX" secondItem="XwK-uA-DXg" secondAttribute="centerX" id="rPy-Bk-Ya2"/>
+                            <constraint firstItem="d3o-Q0-6bx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="tcp-Xn-Bs1"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="heightTextField" destination="1Z4-P1-HTL" id="bHI-eC-Yp4"/>
+                        <outlet property="infoLabel" destination="d3o-Q0-6bx" id="kea-c6-jsM"/>
+                        <outlet property="scaleTextField" destination="l6A-mD-x44" id="7SJ-Mu-8Ip"/>
+                        <outlet property="widthTextField" destination="XwK-uA-DXg" id="BLF-8Y-5VH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205.5" y="332.5"/>
+        </scene>
+    </scenes>
+</document>
