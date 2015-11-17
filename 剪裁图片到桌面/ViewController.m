@@ -89,7 +89,7 @@ static NSString * const userName = @"lhj";
         [manager createDirectoryAtPath:filePath withIntermediateDirectories:NO attributes:nil error:nil];
     }
     
-    NSArray *imageNames = [manager subpathsAtPath:self.imagePath];
+    NSArray *imageNames = [manager contentsOfDirectoryAtPath:self.imagePath error:nil];
     for (NSString *imageName in imageNames) {
         NSString *fullPath = [self.imagePath stringByAppendingPathComponent:imageName];
         UIImage *image = [UIImage imageWithContentsOfFile:fullPath];
