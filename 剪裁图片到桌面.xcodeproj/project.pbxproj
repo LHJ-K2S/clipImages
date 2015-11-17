@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF5876CC1BFB274C0033AE3C /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5876CB1BFB274C0033AE3C /* view.png */; };
-		CF89A1721BFAF57F0042ACC3 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CF89A1711BFAF57F0042ACC3 /* info.png */; };
+		CF5876CE1BFB291A0033AE3C /* info1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5876CD1BFB291A0033AE3C /* info1.png */; };
 		CF997E9F1BF5D9B1002D59C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF997E9E1BF5D9B1002D59C7 /* main.m */; };
 		CF997EA21BF5D9B1002D59C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF997EA11BF5D9B1002D59C7 /* AppDelegate.m */; };
 		CF997EA51BF5D9B1002D59C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF997EA41BF5D9B1002D59C7 /* ViewController.m */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		CF5876CB1BFB274C0033AE3C /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
-		CF89A1711BFAF57F0042ACC3 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		CF5876CD1BFB291A0033AE3C /* info1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info1.png; sourceTree = "<group>"; };
 		CF997E9A1BF5D9B1002D59C7 /* 剪裁图片到桌面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剪裁图片到桌面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF997E9E1BF5D9B1002D59C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF997EA01BF5D9B1002D59C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				CF5876CB1BFB274C0033AE3C /* view.png */,
-				CF89A1711BFAF57F0042ACC3 /* info.png */,
+				CF5876CD1BFB291A0033AE3C /* info1.png */,
 				CF997E9E1BF5D9B1002D59C7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -257,11 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF89A1721BFAF57F0042ACC3 /* info.png in Resources */,
 				CF997EAD1BF5D9B1002D59C7 /* LaunchScreen.storyboard in Resources */,
 				CF5876CC1BFB274C0033AE3C /* view.png in Resources */,
 				CF997EAA1BF5D9B1002D59C7 /* Assets.xcassets in Resources */,
 				CF997EA81BF5D9B1002D59C7 /* Main.storyboard in Resources */,
+				CF5876CE1BFB291A0033AE3C /* info1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
