@@ -44,20 +44,17 @@ static NSString * const userName = @"lhj";
 }
 
 - (IBAction)clipToItem:(id)sender {
-    [self clipImageToWidth:25 height:25 scale:1 extraName:nil fileName:@"item"];
+    [self clipImageToWidth:25 height:25 scale:2 extraName:@"Item@2x" fileName:@"Item"];
+    [self clipImageToWidth:25 height:25 scale:3 extraName:@"Item@3x" fileName:@"Item"];
 }
+
 
 - (IBAction)clipToAppIcon:(id)sender {
-    [self clipImageToWidth:29 height:29 scale:1 extraName:nil fileName:@"AppIcon"];
+    [self clipImageToWidth:60 height:60 scale:2 extraName:@"APP@2x" fileName:@"APP"];
+    [self clipImageToWidth:60 height:60 scale:3 extraName:@"APP@3x" fileName:@"APP"];
 }
 
-- (IBAction)clipToAppIcon2x:(id)sender {
-    [self clipImageToWidth:29 height:29 scale:2 extraName:@"@2x" fileName:@"AppIcon@2x"];
-}
 
-- (IBAction)clipToAppIcon3x:(id)sender {
-    [self clipImageToWidth:29 height:29 scale:3 extraName:@"@3x" fileName:@"AppIcon@3x"];
-}
 
 - (IBAction)clipToScale:(id)sender {
     CGFloat scale = self.scaleTextField.text.floatValue;
@@ -77,6 +74,24 @@ static NSString * const userName = @"lhj";
         NSLog(@"hehe");
     }
 }
+
+- (IBAction)iPadAll:(id)sender {
+    [self clipImageToWidth:29 height:29 scale:1 extraName:@"Setting" fileName:@"平板全家桶"];
+    [self clipImageToWidth:29 height:29 scale:2 extraName:@"Setting@2x" fileName:@"平板全家桶"];
+    [self clipImageToWidth:40 height:40 scale:1 extraName:@"Spotlight" fileName:@"平板全家桶"];
+    [self clipImageToWidth:40 height:40 scale:2 extraName:@"Spotlight@2x" fileName:@"平板全家桶"];
+    [self clipImageToWidth:76 height:76 scale:1 extraName:@"APP" fileName:@"平板全家桶"];
+    [self clipImageToWidth:76 height:76 scale:2 extraName:@"APP@2x" fileName:@"平板全家桶"];
+}
+- (IBAction)iPhoneAll:(id)sender {
+    [self clipImageToWidth:29 height:29 scale:2 extraName:@"Setting@2x" fileName:@"手机全家桶"];
+    [self clipImageToWidth:29 height:29 scale:3 extraName:@"Setting@3x" fileName:@"手机全家桶"];
+    [self clipImageToWidth:40 height:40 scale:2 extraName:@"Spotlight@2x" fileName:@"手机全家桶"];
+    [self clipImageToWidth:40 height:40 scale:3 extraName:@"Spotlight@3x" fileName:@"手机全家桶"];
+    [self clipImageToWidth:60 height:60 scale:2 extraName:@"APP@2x" fileName:@"手机全家桶"];
+    [self clipImageToWidth:60 height:60 scale:3 extraName:@"APP@3x" fileName:@"手机全家桶"];
+}
+
 
 
 
